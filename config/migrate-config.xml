@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migration>
+	<database  type="resource">
+		<property  name="dbType">mysql</property>
+		<property  name="url">jdbc:mysql://10.0.14.200:3306/hx_erp_dev</property>
+		<property  name="user">hx_erp</property>
+		<property  name="passwd">123456</property>
+	</database>
+	
+	<database   type="destination">
+		<property  name="dbType">mysql</property>
+		<property  name="url">jdbc:mysql:///hx_erp_dev</property>
+		<property  name="user">root</property>
+		<property  name="passwd">root</property>
+	</database>
+
+</migration>
